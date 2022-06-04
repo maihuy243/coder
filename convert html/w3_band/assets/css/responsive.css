@@ -1,0 +1,70 @@
+/* PC */
+
+
+/* Dùng em cho media queries 1em = 16px */
+
+@media (min-width:1024) {}
+
+
+/* Tablet */
+
+@media (min-width:740px) and (max-width:1024) {}
+
+
+/* Mobile */
+
+@media (max-width:739px) {
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+    }
+    #nav .subnav a {
+        color: aliceblue;
+        padding: 4px 42px;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .mobile-menu {
+        display: block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #content .members-list {
+        display: flex;
+        flex-direction: column;
+    }
+    #content .member-item .member-img {
+        width: 60%;
+    }
+    .places-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .places-list .place-item {
+        width: 100%;
+        margin-top: 16px;
+    }
+    .content-section .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-section .contact-mobile {
+        width: 100%;
+        margin: 10px 0;
+        line-height: 30px;
+    }
+    .btn {
+        width: 100%;
+    }
+}

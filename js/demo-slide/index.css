@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slide {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slide .imgs {
+  max-width: 800px;
+  overflow: hidden;
+  height: 636px;
+  transition: all 1s ease;
+}
+.slide .imgs .img-item {
+  display: none;
+}
+.slide .imgs .active {
+  display: block;
+}
+.slide .btns {
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+.slide .btns .btn {
+  padding: 10px 20px;
+  background-color: rgb(56, 193, 228);
+  border-radius: 4px;
+  margin: 0px 20px;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.slide .btns .btn:hover {
+  background-color: rgba(0, 236, 118, 0.667);
+}
+.slide .btns .btn.active {
+  opacity: 1;
+  background-color: rgb(247, 7, 255);
+}
+.slide .btns .line {
+  position: absolute;
+  transition: all 1s ease;
+  left: 0;
+  width: 0;
+  top: 65%;
+  border: 5px solid rgb(3, 3, 3);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*# sourceMappingURL=index.css.map */

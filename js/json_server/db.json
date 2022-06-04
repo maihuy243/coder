@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Mai Sỹ Hùng",
+      "description": "Nga Hải - Nga Sơn - Thanh Hóa"
+    },
+    {
+      "name": "Chu Mi B",
+      "description": "Cứuuuuuuuuuuuuuu",
+      "id": 4
+    },
+    {
+      "name": "Chu Mi BE",
+      "description": "Cứuuuuuuuuuuuuuu",
+      "id": 5
+    },
+    {
+      "name": "Chu Mi BEC",
+      "description": "Cứuuuuuuuuuuuuuu",
+      "id": 6
+    }
+  ]
+}

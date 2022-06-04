@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$fonthtml: 'Vollkorn',
+serif;
+$fontheader: 'Pattaya',
+sans-serif;
+$fonttitle:'Merriweather',
+serif;
+html {
+    font-family: $fonthtml;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#music {
+    margin: auto;
+    // background-image: url(../img/abstract-simple-background-4k-lp.jpg);
+    background-color: rgb(139, 134, 134);
+    height: 100vh;
+    @include center();
+    .bg {
+        background-color: #ffffff;
+        height: 100vh;
+        width: 80%;
+        position: fixed;
+        box-shadow: 0 0 8px 0px;
+        @include between();
+        overflow: hidden;
+        .menu {
+            padding-top: 20px;
+            width: 300px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            &-logo {
+                width: 300px;
+                padding-left: 30px;
+                margin-bottom: 30px;
+                img {
+                    width: 100%;
+                }
+            }
+            &-list {
+                position: relative;
+                div {
+                    transition: all 0.2s ease;
+                }
+                .active {
+                    background-color: rgba(#adabab, 1);
+                    color: rgb(0, 0, 0);
+                }
+                &-item {
+                    cursor: pointer;
+                    padding: 8px 40px 6px 40px;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    color: rgb(5, 5, 5);
+                    transition: all 1s ease;
+                    margin: 8px 0px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    div+div {
+                        font-size: 16px;
+                    }
+                    &-title {
+                        font-size: 26px;
+                        padding-left: 30px;
+                        font-family: $fonttitle;
+                        margin: 20px 0px;
+                    }
+                    img {
+                        margin-right: 8px;
+                    }
+                }
+                .line {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    border: 2px solid rgba(255, 12, 12);
+                }
+            }
+        }
+        .play {
+            @include between();
+            &-song {
+                width: 800px;
+                height: 100vh;
+                @include column();
+                padding-top: 20px;
+                &-name {
+                    text-align: center;
+                    &-song {
+                        font-size: 50px;
+                        font-family: $fontheader;
+                        font-weight: bold;
+                        color: rgb(92, 91, 91);
+                    }
+                    &-single {
+                        font-size: 22px;
+                        color: rgb(143, 140, 140);
+                    }
+                }
+                &-disc {
+                    height: 200px;
+                    width: 200px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                &-time {
+                    margin-bottom: 20px !important;
+                    input {
+                        width: 400px;
+                    }
+                }
+                &-nav {
+                    @include center();
+                    div {
+                        cursor: pointer;
+                        margin: 0px 20px;
+                        transition: all 0.2s ease;
+                        text-align: center;
+                        border-radius: 50%;
+                    }
+                    .active {
+                        color: #ff0000;
+                    }
+                }
+                &-title {
+                    width: 100%;
+                    text-align: left;
+                    font-size: 25px;
+                    color: rgb(255, 5, 5);
+                    font-family: $fonthtml;
+                }
+                &-listsingle {
+                    height: 400px;
+                    overflow-y: scroll;
+                    &-item {
+                        width: 800px;
+                        height: 150px;
+                        margin-bottom: 10px;
+                        overflow: hidden;
+                        position: relative;
+                        cursor: pointer;
+                        .opacity {
+                            position: absolute;
+                            width: 800px;
+                            height: 150px;
+                            background-color: rgba(#464444, 0.8);
+                            top: 0;
+                            left: 0;
+                        }
+                        &-banner {
+                            width: 800px;
+                            height: 200px;
+                            overflow: hidden;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        &-name {
+                            position: absolute;
+                            bottom: 10px;
+                            left: 10px;
+                            font-size: 30px;
+                            color: #fff;
+                        }
+                    }
+                    &::-webkit-scrollbar {
+                        width: 0px;
+                    }
+                }
+            }
+            &-list {
+                position: relative;
+                width: 400px;
+                height: 100vh;
+                padding: 20px 0px 20px 20px;
+                overflow-y: scroll;
+                &::-webkit-scrollbar {
+                    width: 0px;
+                }
+                &-song {
+                    margin-bottom: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    cursor: pointer;
+                    padding: 4px 0px 4px 8px;
+                    border-radius: 15px 0px 0px 15px;
+                    transition: 0.2s;
+                    &-logo {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        margin-right: 10px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    &-name {
+                        &-songname {
+                            font-size: 18px;
+                            color: rgb(0, 0, 0);
+                        }
+                        &-singlename {
+                            font-size: 13px;
+                            color: rgb(126, 125, 125);
+                        }
+                    }
+                }
+                &-song:active {
+                    background-color: #a096966c;
+                }
+                &-song:hover {
+                    box-shadow: 0 0 4px 0px;
+                }
+            }
+            .active {
+                background-color: rgba(#ee2222, 0.4);
+            }
+            // &-list:hover {
+            //     &::-webkit-scrollbar {
+            //         width: 8px;
+            //     }
+            //     // thanh cuộn
+            //     &::-webkit-scrollbar-thumb {
+            //         width: 5px;
+            //         background: linear-gradient(rgb(237, 113, 241), rgb(86, 243, 204));
+            //         border-radius: 5px;
+            //     }
+            // }
+        }
+    }
+}

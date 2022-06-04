@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/music.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/icon/fabicon.png">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div id="music">
+        <div class="bg">
+            <div class="menu">
+                <div class="menu-logo"><img src="../assets/img/logo.png" alt=""></div>
+                <div class="menu-list">
+                    <div class="menu-list-item-title">Music</div>
+
+                    <div class="menu-list-item active">
+                        <div><img src="../assets/icon/follower.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            Cá Nhân </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/khampha.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            Khám Phá </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/bxh.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            Bảng Xếp Hạng </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/radio.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            Radio </div>
+                    </div>
+                    <div class="menu-list-item-title">Nhạc Của Tôi</div>
+
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/theodoi.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            Theo Dõi </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/nhacmoi.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            Nhạc Mới </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/theloai.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            Thể Loại </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/mv.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            MV </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/top100.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            Top 100 </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/list.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            PlayList</div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div><img src="../assets/icon/ganday.png" alt=""></div>
+                        <div style="padding: 0px 0px 3px 5px">
+                            Gần Đây </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="play">
+                <div class="play-song">
+                    <div class="play-song-name">
+                        <div class="play-song-name-song"></div>
+                        <div class="play-song-name-single"></div>
+                    </div>
+                    <div class="play-song-disc">
+                        <img class="imgdisc" src="" alt="">
+                    </div>
+
+                    <div class="play-song-time">
+                        <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                        <audio class="audio" src=""></audio>
+                    </div>
+                    <div class="play-song-nav">
+                        <div class="playback"><i class="fa-solid fa-rotate-left"></i></div>
+                        <div class="prev"><img src="../assets/icon/prev.png" alt=""></div>
+                        <div class="playbtn"><img src="../assets/icon/play-button.png" alt=""></div>
+                        <div class="next"><img src="../assets/icon/next-button.png" alt=""></div>
+                        <div class="random"><i class="fa-solid fa-shuffle"></i></div>
+                    </div>
+                    <div class="play-song-title">Album Single</div>
+
+                    <div class="play-song-listsingle">
+                        <div class="play-song-listsingle-item">
+                            <div class="play-song-listsingle-item-banner">
+                                <img src="../assets/banner/sontung.png" alt="">
+                            </div>
+                            <div class="opacity"></div>
+                            <div class="play-song-listsingle-item-name">Sơn Tùng MTP</div>
+                        </div>
+                        <div class="play-song-listsingle-item">
+                            <div class="play-song-listsingle-item-banner">
+                                <img src="../assets/banner/chidan.jpg" alt="">
+                            </div>
+                            <div class="opacity"></div>
+                            <div class="play-song-listsingle-item-name">Chi Dân</div>
+                        </div>
+                        <div class="play-song-listsingle-item">
+                            <div class="play-song-listsingle-item-banner">
+                                <img src="../assets/banner/khacviet.jpg" alt="">
+                            </div>
+                            <div class="opacity"></div>
+                            <div class="play-song-listsingle-item-name">Khắc Việt</div>
+                        </div>
+                        <div class="play-song-listsingle-item">
+                            <div class="play-song-listsingle-item-banner">
+                                <img src="../assets/banner/tuanhung.jpg" alt="">
+                            </div>
+                            <div class="opacity"></div>
+                            <div class="play-song-listsingle-item-name">Tuấn Hưng</div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="play-list">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="../assets/js/music.js"></script>
+</body>
+
+</html>

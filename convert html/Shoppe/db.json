@@ -1,0 +1,121 @@
+{
+    "product": [{
+            "id": 1,
+            "name": "Dây chuyền mặt hình gấu đính đá zircon kiểu dáng dễ thương",
+            "price": "10500",
+            "buy": "1,6",
+            "url": "./img/product1.png"
+        }, {
+            "id": 2,
+            "name": "S925 silver needle Bông tai đinh tán không gây dị ứng thời trang Hàn Quốc đơn giản cá tính cho nữ",
+            "price": "3600",
+            "buy": "0.3",
+            "url": "./img/tren5.png"
+        },
+        {
+            "id": 3,
+            "name": "Dép bánh mỳ thời trang trà sữa cún cưng mẫu mới nhất Dép thời trang nam nữ hottrend",
+            "price": "113000",
+            "buy": "3",
+            "url": "./img/trend4.png"
+        },
+        {
+            "id": 4,
+            "name": "Ốp Điện Thoại TPU Silicon Màu Trơn Thời Trang Cho iPhone 11 Pro MAX 6 6s 7 8 Plus X XS SE 2020 2022 SE3",
+            "price": "131513",
+            "buy": "1,1",
+            "url": "./img/trend3.png"
+        },
+        {
+            "id": 5,
+            "name": "Đèn ngủ mặt trăng kiểu dáng dễ thương trang trí phòng ngủ cho bé",
+            "price": "1034112",
+            "buy": "0.9",
+            "url": "./img/trend2.png"
+        }, {
+            "id": 6,
+            "name": "Ví nam da đẹp hàng hiệu thời trang cao cấp, Bóp da PU xịn nhiều ngăn đẳng cấp nam tính",
+            "price": "999999",
+            "buy": "5.1",
+            "url": "./img/trend1.png"
+        }, {
+            "id": 7,
+            "name": "Dép bánh mỳ thời trang trà sữa cún cưng mẫu mới nhất Dép thời trang nam nữ hottrend",
+            "price": "113000",
+            "buy": "3",
+            "url": "./img/trend4.png"
+        },
+        {
+            "id": 8,
+            "name": "Ốp Điện Thoại TPU Silicon Màu Trơn Thời Trang Cho iPhone 11 Pro MAX 6 6s 7 8 Plus X XS SE 2020 2022 SE3",
+            "price": "131513",
+            "buy": "1,1",
+            "url": "./img/trend3.png"
+        },
+        {
+            "id": 9,
+            "name": "Đèn ngủ mặt trăng kiểu dáng dễ thương trang trí phòng ngủ cho bé",
+            "price": "1034112",
+            "buy": "0.9",
+            "url": "./img/trend2.png"
+        }, {
+            "id": 10,
+            "name": "Ví nam da đẹp hàng hiệu thời trang cao cấp, Bóp da PU xịn nhiều ngăn đẳng cấp nam tính",
+            "price": "999999",
+            "buy": "5.1",
+            "url": "./img/trend1.png"
+        }, {
+            "id": 11,
+            "name": "Dép bánh mỳ thời trang trà sữa cún cưng mẫu mới nhất Dép thời trang nam nữ hottrend",
+            "price": "113000",
+            "buy": "3",
+            "url": "./img/trend4.png"
+        },
+        {
+            "id": 12,
+            "name": "Ốp Điện Thoại TPU Silicon Màu Trơn Thời Trang Cho iPhone 11 Pro MAX 6 6s 7 8 Plus X XS SE 2020 2022 SE3",
+            "price": "131513",
+            "buy": "1,1",
+            "url": "./img/trend3.png"
+        },
+        {
+            "id": 13,
+            "name": "Đèn ngủ mặt trăng kiểu dáng dễ thương trang trí phòng ngủ cho bé",
+            "price": "1034112",
+            "buy": "0.9",
+            "url": "./img/trend2.png"
+        }, {
+            "id": 14,
+            "name": "Ví nam da đẹp hàng hiệu thời trang cao cấp, Bóp da PU xịn nhiều ngăn đẳng cấp nam tính",
+            "price": "999999",
+            "buy": "5.1",
+            "url": "./img/trend1.png"
+        }, {
+            "id": 15,
+            "name": "Dép bánh mỳ thời trang trà sữa cún cưng mẫu mới nhất Dép thời trang nam nữ hottrend",
+            "price": "113000",
+            "buy": "3",
+            "url": "./img/trend4.png"
+        },
+        {
+            "id": 16,
+            "name": "Ốp Điện Thoại TPU Silicon Màu Trơn Thời Trang Cho iPhone 11 Pro MAX 6 6s 7 8 Plus X XS SE 2020 2022 SE3",
+            "price": "131513",
+            "buy": "1,1",
+            "url": "./img/trend3.png"
+        },
+        {
+            "id": 17,
+            "name": "Đèn ngủ mặt trăng kiểu dáng dễ thương trang trí phòng ngủ cho bé",
+            "price": "1034112",
+            "buy": "0.9",
+            "url": "./img/trend2.png"
+        }, {
+            "id": 18,
+            "name": "Ví nam da đẹp hàng hiệu thời trang cao cấp, Bóp da PU xịn nhiều ngăn đẳng cấp nam tính",
+            "price": "999999",
+            "buy": "5.1",
+            "url": "./img/trend1.png"
+        }
+    ]
+}
