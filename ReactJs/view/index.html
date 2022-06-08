@@ -8,31 +8,18 @@
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
     <title>ReactJS</title>
 </head>
 
 <body>
-    <h1>Add ReactJs to Website !</h1>
+    <div class="h1 justify-content-center d-flex">List item </div>
+    <div id="root" class="d-flex justify-content-center align-items-start flex-wrap d-grid  row-cols-2">
+    </div>
+    </div>
+    <script type="text/babel" src="../assets/js/index.js"></script>
 
-    <div id="root"></div>
-
-    <script type="text/babel">
-
-        const course = [ { name:'HTML, CSS' }, { name:'Javascript' }, { name:'PHP' } ]; 
-       
-        const ul = <ul>
-            {
-                course.map((item) => 
-                   <li>{item.name}</li>
-                )
-            }
-            </ul>;
-            const container = document.querySelector("#root")
-            const root = ReactDOM.createRoot(container)
-            root.render(ul)
-
-
-    </script>
 </body>
 
 </html>
