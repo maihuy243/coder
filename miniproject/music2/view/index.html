@@ -1,64 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,200" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,200"
+    />
     <title>Music</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="dashboard">
-        <div class="viewsong">
-            <h3>Now Playing</h3>
-            <h1></h1>
-            <div class="cd-thumb">
-                <img class="cd" src="" alt="">
-            </div>
-            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
-            <audio src=""></audio>
-            <div class="button">
-                <div class="btn-repeat">
-                    <span class="material-symbols-outlined">
-                  restart_alt
-                  </span>
-                </div>
-                <div class="btn-previous">
-                    <span class="material-symbols-outlined">
-                    skip_previous
-                    </span>
-                </div>
-                <div class="btn-plays">
-                    <span class="material-symbols-outlined btn-play active ">
-                    play_circle
-                    </span>
-                    <span class="material-symbols-outlined btn-pause ">
-                      stop_circle
-                      </span>
-                </div>
-                <div class="btn-next">
-                    <span class="material-symbols-outlined">
-                    skip_next
-                    </span>
-                </div>
-                <div class="btn-random">
-                    <span class="material-symbols-outlined">
-                    shuffle
-                    </span>
-                </div>
-            </div>
-
+      <div class="viewsong">
+        <h3>Now Playing</h3>
+        <h1></h1>
+        <div class="cd-thumb">
+          <img class="cd" src="" alt="" />
         </div>
-        <div class="listsong">
-
-
-
+        <input
+          id="progress"
+          class="progress"
+          type="range"
+          value="0"
+          step="1"
+          min="0"
+          max="100"
+        />
+        <audio src=""></audio>
+        <div class="button">
+          <div class="btn-repeat">
+            <span class="material-symbols-outlined"> restart_alt </span>
+          </div>
+          <div class="btn-previous">
+            <span class="material-symbols-outlined"> skip_previous </span>
+          </div>
+          <div class="btn-plays">
+            <span class="material-symbols-outlined btn-play active">
+              play_circle
+            </span>
+            <span class="material-symbols-outlined btn-pause">
+              stop_circle
+            </span>
+          </div>
+          <div class="btn-next">
+            <span class="material-symbols-outlined"> skip_next </span>
+          </div>
+          <div class="btn-random">
+            <span class="material-symbols-outlined"> shuffle </span>
+          </div>
         </div>
+      </div>
+      <div class="listsong"></div>
     </div>
     <script src="../assets/js/index.js"></script>
-</body>
-
+  </body>
 </html>
