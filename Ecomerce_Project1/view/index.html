@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <script defer type="module" src="../assets/js/myproject.js"></script>
+    <title>GIFTOS</title>
+  </head>
+  <body>
+    <div class="wrapper container">
+      <div class="logo container-fluid">GIFTOS</div>
+      <div class="navbar container-fluid">
+        <ul class="container-fluid">
+          <li class="itemNav active">home</li>
+          <li class="itemNav">shop</li>
+          <li class="itemNav">why us</li>
+          <li class="itemNav">testimonial</li>
+          <li class="itemNav">contact us</li>
+          <div class="form-search">
+            <div class="user icon">
+              <div><img src="../assets/icon/person.svg" alt="" /></div>
+              <div class="text">Login</div>
+            </div>
+            <div class="shopping icon">
+              <img src="../assets/icon/shoppingbag.svg" alt="" />
+            </div>
+            <div class="searchNav icon">
+              <img src="../assets/icon/search.svg" alt="" />
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div class="slide container-fluid">
+        <span id="viewSlide"></span>
+        <!-- Slide -->
+
+        <div class="btnSlide">
+          <div class="btnPrev" onclick="myShop.prevSlide(--myProject.index)">
+            <img src="../assets/icon/arrow-left-circle.svg" alt="" />
+          </div>
+          <div><img src="../assets/images/line.png" alt="" width="100" /></div>
+          <div class="btnNext" onclick="myShop.next(++myShop.index)">
+            <img src="../assets/icon/arrow-right-circle.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="latestProducts">
+        <div class="title">latest products</div>
+        <div class="row products"></div>
+      </div>
+    </div>
+  </body>
+</html>

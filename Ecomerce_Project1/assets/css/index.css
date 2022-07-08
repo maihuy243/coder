@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper .logo {
+  font-size: 28px;
+  font-family: "poppin", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 4px;
+}
+.wrapper .navbar {
+  padding: 0;
+  align-items: center;
+}
+.wrapper .navbar ul {
+  border-radius: 15px 15px 0px 0px;
+  margin: 0;
+  background-color: #f9ece6;
+  list-style: none;
+  padding: 4px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .navbar ul .form-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 0px;
+}
+.wrapper .navbar ul li {
+  font-size: 16px;
+  padding: 5px 25px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #514f4f;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.wrapper .navbar ul .active {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(138, 131, 131);
+}
+.wrapper .navbar ul .form-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  cursor: pointer;
+  margin-right: 12px;
+}
+.wrapper .navbar ul .form-search .icon {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .navbar ul .form-search .icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .navbar ul .form-search .icon div img {
+  margin: 0px 8px;
+}
+.wrapper .navbar ul .form-search .icon img {
+  width: 20px;
+  margin-left: 24px;
+}
+.wrapper .slide {
+  position: relative;
+  background-color: #f89cab;
+  padding: 25px;
+}
+.wrapper .slide-inside {
+  padding: 25px;
+}
+.wrapper .slide-inside .inside-article {
+  color: #fff;
+}
+.wrapper .slide-inside .inside-article h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+.wrapper .slide-inside .inside-article button {
+  text-transform: uppercase;
+  padding: 10px 40px;
+  color: #fff;
+  font-family: "poppin", sans-serif;
+  background-color: #db4566;
+}
+.wrapper .slide .btnSlide {
+  position: absolute;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  width: 12%;
+  border-radius: 5px 5px 0px 0px;
+  bottom: 2px;
+  left: 96px;
+}
+.wrapper .slide .btnSlide .btnNext,
+.wrapper .slide .btnSlide .btnPrev {
+  cursor: pointer;
+}
+.wrapper .slide .btnSlide .btnNext img,
+.wrapper .slide .btnSlide .btnPrev img {
+  width: 20px;
+}
+.wrapper .slide .btnSlide div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .slide .btnSlide div img {
+  width: 100%;
+}
+.wrapper .latestProducts {
+  margin-bottom: 100px;
+  margin-top: 90px;
+}
+.wrapper .latestProducts .title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.wrapper .latestProducts .product {
+  cursor: pointer;
+  position: relative;
+  width: 242px;
+  height: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eeeeee;
+  padding: 10px;
+}
+.wrapper .latestProducts .product-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .latestProducts .product-img-logoNew {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 12px 8px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.wrapper .latestProducts .product-img img {
+  max-height: 145px;
+  max-width: 100%;
+}
+.wrapper .latestProducts .product-details {
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "poppin", sans-serif;
+  font-weight: 600;
+}
+.wrapper .latestProducts .product-details span {
+  color: #db4f66;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=index.css.map */
